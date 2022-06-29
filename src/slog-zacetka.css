@@ -1,0 +1,156 @@
+.zacetek {
+    background-color: #F5F5F5;
+    min-height: 450px;
+    min-width: 500px;
+    max-width: 80vw;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.padinganje {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.naslovnica-zacetek {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+.zacetek-nevidno {
+    margin-top: 24px;
+    margin-bottom: -23px;
+    padding-right: 1px;
+    cursor: pointer;
+    width: 24px;
+    background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 17px;
+}
+
+.naslov-zacetek {
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    padding-top: 0;
+    margin: 0;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jezik {
+    margin-top: 20px;
+    margin-bottom: -23px;
+    padding-left: 1px;
+    cursor: pointer;
+    background-image: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+
+.jezik:hover {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #FFCC70 0%, #4158D0 46%, #C850C0 100%);
+}
+
+.jezik:active {
+    font-size: 23px;
+}
+
+
+.besedilo {
+    min-width:300px;
+    max-width:300px;
+    text-align:center;
+    margin:0 auto;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+
+.zvrst-vprasanj {
+    margin: 0;
+    text-align: center;
+    font-weight: initial;
+    font-size: 20px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.izbirnik-celota {
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+
+
+.izbrinik-zacetek {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: white;
+    width: 60%;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    color: black;
+
+}
+
+.izbrinik-zacetek > option {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    border-radius: 4px;
+    background-color: white;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    border: none;
+    box-shadow: none;
+    color: dodgerblue;
+}
+
+
+.nosilec-gumba {
+    display: flex;
+    justify-content: center;
+}
+
+.potrdi {
+    border-radius: 10px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    padding: 12px 50px;
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.potrdi:hover {
+    background-image: linear-gradient(160deg, #80D0C7 0%, #0093E9 100%);
+}
+
+.potrdi:active {
+    font-size: 18px;
+}

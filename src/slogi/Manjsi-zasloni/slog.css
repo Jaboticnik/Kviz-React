@@ -1,0 +1,41 @@
+@media screen and (pointer: fine) and (min-width: 630px) and (max-width: 1024px) and (min-height: 505px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    }
+}
+
+@media screen and (pointer: fine)  {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    }
+}

@@ -1,0 +1,149 @@
+@media screen and (pointer: fine) and (max-width: 1024px) {
+    .obrazec {
+        background-color: #F5F5F5;
+
+        border-radius: 5px;
+        padding: 20px;
+        padding-bottom: 0;
+        max-width: 60ch;
+    }
+    
+    
+    
+    .obrazec-prostor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .obrazec-vprasanje {
+       align-items: center;
+    }
+    
+    .obrazec-vprasanje-besedilo{
+        
+        font-family: 'Karla', sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3vmax;
+        background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+    
+    }
+    
+    .obrazec-gumbi {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .obrazec-gumbi > button {
+    
+        box-sizing: border-box;
+    
+        padding: 4px 17px;
+        border: none;
+        
+        border-radius: 10px;
+    
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2vmin;
+        background-color: white;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: #293264;
+        cursor: pointer;
+    }
+    
+    
+    
+    .obrazec-prostor-crta {
+    
+        margin-top: 6px;
+        border: 0.794239px solid #DBDEF0;
+        transform: rotate(-0.05deg);
+        width: 500px;
+    
+    
+    }
+    
+    .prostor-gumb-obrazec {
+       
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    
+    .obrazec-besedilozmage {
+        padding-right: 10px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        background-color: #2a2a72;
+        background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+    }
+    
+    .prostor-gumb-nosilnik {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .obrazec-prostor-potrdi {
+        padding: 1.6vh 3vw;
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        border-radius: 10px;
+    
+        border: none;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+    
+        line-height: 12px;
+        text-align: center;
+        font-size: 15px;
+        color: #F5F7FB;
+        cursor: pointer;
+    }
+    
+    .obrazec-prostor-novaigra {
+        padding: 0.2vw 2vw;
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        border-radius: 10px;
+    
+        border: none;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+    
+        line-height: 12px;
+        text-align: center;
+        font-size: 15px;
+        color: #F5F7FB;
+        cursor: pointer;
+    }
+    
+    #gumb-potrditev:hover {
+        background-image: linear-gradient(160deg, #80D0C7 0%, #0093E9 100%);
+    }
+    
+    #gumb-potrditev:active {
+        font-size: 18px;
+    }
+
+}
+
+
